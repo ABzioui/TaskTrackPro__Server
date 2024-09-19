@@ -27,16 +27,28 @@
 						"type": "text/javascript",
 						"packages": {}
 					}
+				},
+				{
+					"listen": "prerequest",
+					"script": {
+						"packages": {},
+						"type": "text/javascript"
+					}
 				}
 			],
 			"request": {
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{baseURL}}/progress/overview",
+					"raw": "http://15.237.58.88:5001/progress/overview",
+					"protocol": "http",
 					"host": [
-						"{{baseURL}}"
+						"15",
+						"237",
+						"58",
+						"88"
 					],
+					"port": "5001",
 					"path": [
 						"progress",
 						"overview"
@@ -78,10 +90,15 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{baseURL}}/management/admin",
+					"raw": "http://15.237.58.88:5001/management/admin",
+					"protocol": "http",
 					"host": [
-						"{{baseURL}}"
+						"15",
+						"237",
+						"58",
+						"88"
 					],
+					"port": "5001",
 					"path": [
 						"management",
 						"admin"
@@ -124,10 +141,15 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{baseURL}}/management/geography",
+					"raw": "http://15.237.58.88:5001/management/geography",
+					"protocol": "http",
 					"host": [
-						"{{baseURL}}"
+						"15",
+						"237",
+						"58",
+						"88"
 					],
+					"port": "5001",
 					"path": [
 						"management",
 						"geography"
@@ -174,10 +196,15 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{baseURL}}/management/performance",
+					"raw": "http://15.237.58.88:5001/management/performance",
+					"protocol": "http",
 					"host": [
-						"{{baseURL}}"
+						"15",
+						"237",
+						"58",
+						"88"
 					],
+					"port": "5001",
 					"path": [
 						"management",
 						"performance"
@@ -220,10 +247,15 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{baseURL}}/general/user/:id",
+					"raw": "http://15.237.58.88:5001/general/user/:id",
+					"protocol": "http",
 					"host": [
-						"{{baseURL}}"
+						"15",
+						"237",
+						"58",
+						"88"
 					],
+					"port": "5001",
 					"path": [
 						"general",
 						"user",
@@ -277,10 +309,15 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{baseURL}}/general/dashboard",
+					"raw": "http://15.237.58.88:5001/general/dashboard",
+					"protocol": "http",
 					"host": [
-						"{{baseURL}}"
+						"15",
+						"237",
+						"58",
+						"88"
 					],
+					"port": "5001",
 					"path": [
 						"general",
 						"dashboard"
@@ -315,10 +352,15 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{baseURL}}/control/projects",
+					"raw": "http://15.237.58.88:5001/control/projects",
+					"protocol": "http",
 					"host": [
-						"{{baseURL}}"
+						"15",
+						"237",
+						"58",
+						"88"
 					],
+					"port": "5001",
 					"path": [
 						"control",
 						"projects"
@@ -352,10 +394,15 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{baseURL}}/control/tasks",
+					"raw": "http://15.237.58.88:5001/control/tasks",
+					"protocol": "http",
 					"host": [
-						"{{baseURL}}"
+						"15",
+						"237",
+						"58",
+						"88"
 					],
+					"port": "5001",
 					"path": [
 						"control",
 						"tasks"
@@ -395,10 +442,15 @@
 				"method": "PUT",
 				"header": [],
 				"url": {
-					"raw": "{{baseURL}}/control/task/:id/assign/:userID",
+					"raw": "http://15.237.58.88:5001/control/task/:id/assign/:userID",
+					"protocol": "http",
 					"host": [
-						"{{baseURL}}"
+						"15",
+						"237",
+						"58",
+						"88"
 					],
+					"port": "5001",
 					"path": [
 						"control",
 						"task",
@@ -466,10 +518,15 @@
 					}
 				},
 				"url": {
-					"raw": "{{baseURL}}/auth/login",
+					"raw": "http://15.237.58.88:5001/auth/login",
+					"protocol": "http",
 					"host": [
-						"{{baseURL}}"
+						"15",
+						"237",
+						"58",
+						"88"
 					],
+					"port": "5001",
 					"path": [
 						"auth",
 						"login"
@@ -504,10 +561,15 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "{{baseURL}}/auth/deleteUser/:id",
+					"raw": "http://15.237.58.88:5001/auth/deleteUser/:id",
+					"protocol": "http",
 					"host": [
-						"{{baseURL}}"
+						"15",
+						"237",
+						"58",
+						"88"
 					],
+					"port": "5001",
 					"path": [
 						"auth",
 						"deleteUser",
@@ -558,10 +620,15 @@
 					}
 				},
 				"url": {
-					"raw": "{{baseURL}}/auth/register",
+					"raw": "http://15.237.58.88:5001/auth/register",
+					"protocol": "http",
 					"host": [
-						"{{baseURL}}"
+						"15",
+						"237",
+						"58",
+						"88"
 					],
+					"port": "5001",
 					"path": [
 						"auth",
 						"register"
